@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+keycloak:
+  realm: demo
+  auth-server-url: http://localhost:8080/auth
+  bearer-only: true
+  resource: demo-client
+  credentials:
+    secret: 07229787-ec63-4634-a0ea-986a01f31efd
